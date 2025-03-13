@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Nested_if_else {
+	public static void main(String[] agrs) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+	if((a>b) && (a>c)) {
+		System.out.println("num : " +"a is greater Number");
+	}
+	else if((b>a) && (b>c)){
+		System.out.println("num : " +"b is greater Number");
+	}
+	else {
+		System.out.println("num : "+ "c is greater Number" );
+	}
+	}
+
+}

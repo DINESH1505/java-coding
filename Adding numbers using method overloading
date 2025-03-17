@@ -1,0 +1,26 @@
+package Method_overloading;
+
+public class Basic {
+public static void main(String[] agrs) {
+	int result=add(2,3);
+	System.out.println("the add result is:"+result);
+	
+     int subresult=sub(1,5,3);
+	System.out.println("the subresult is:"+subresult);
+	int add=add2(result,subresult);
+	System.out.println("the add two thinks:"+add);
+}
+ public static int add(int a,int b) {
+	int c=a+b;
+	return c;
+}
+ public static int sub(int a,int b,int c) {
+		int d=a-b-c;
+		return d;
+
+}
+ public static int add2(int a,int b) {
+	int e=a+b;
+	return e;
+}
+}
